@@ -1,0 +1,6 @@
+"0","grafico = ggplot(rock, "
+"0","       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + "
+"0","  theme_bw() + theme(legend.position = ""none"") "
+"2","Errore in ggplot(rock, aes(y = peri, x = shape, color = shape, size = peri)) : 
+  non trovo la funzione ""ggplot""
+"

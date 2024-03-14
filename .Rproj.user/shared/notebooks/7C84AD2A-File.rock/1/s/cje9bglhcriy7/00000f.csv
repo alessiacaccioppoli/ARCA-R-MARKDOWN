@@ -1,0 +1,1 @@
+"0","plot(data$y ~ data$x, col = ""blue"")"

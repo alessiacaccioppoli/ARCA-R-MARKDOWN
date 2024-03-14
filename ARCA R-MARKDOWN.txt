@@ -1,0 +1,30 @@
+ARCA R-MARKDOWN
+
+
+C:\Program Files\R\R-4.2.1\share
+
+pagina del corso con tutti i materiali:
+https://github.com/OttaviaE/CorsoRmarkdown
+
+{}
+
+
+Nella geologia del petrolio , la roccia madre è la roccia che ha generato idrocarburi o che potrebbe generare idrocarburi. Le rocce madri sono uno degli elementi necessari per un sistema petrolifero funzionante . Sono sedimenti ricchi di sostanza organica che potrebbero essere stati depositati in una varietà di ambienti tra cui acque profonde marine , lacustri e deltizie . Lo scisto bituminoso può essere considerato una roccia madre ricca di materiale organico ma immatura da cui è stato generato ed espulso poco o nessun petrolio. Le metodologie di mappatura delle rocce madri del sottosuolo consentono di identificare le probabili zone di presenza di petrolio nei bacini sedimentari e nei giacimenti di gas di scisto .
+
+Le rocce madri sono classificate in base ai tipi di kerogene che contengono, che a sua volta governa il tipo di idrocarburi che verranno generati: 
+
+Le rocce madri di tipo I sono formate da resti di alghe depositati in condizioni anossiche in laghi profondi: tendono a generare oli grezzi cerosi quando sottoposti a stress termico durante l'interramento profondo.
+Le rocce madri di tipo II sono formate da resti planctonici e batterici marini conservati in condizioni anossiche in ambienti marini: producono sia petrolio che gas quando vengono fessurate termicamente durante l'interramento profondo.
+Le rocce madri di tipo III sono formate da materiale vegetale terrestre che è stato decomposto da batteri e funghi in condizioni ossiche o subossiche: tendono a generare principalmente gas con oli leggeri associati quando vengono fessurate termicamente durante l'interramento profondo. La maggior parte dei carboni e degli scisti carbonatici sono generalmente rocce madri di tipo III.
+
+```{r, fig.cap = "Caption", fig.align="center", out.width="50%"}
+knitr::include_graphics(path = "vignettes/immagine.png")
+```
+```{r, fig.cap = "Caption", fig.align="center", out.width="50%"}
+knitr::include_graphics(path = "vignettes/immagine.png")
+```
+
+
+
+
+Sasso di Castalda (U Sàsse in dialetto lucano) è un comune italiano di 745 abitanti della provincia di Potenza in Basilicata.

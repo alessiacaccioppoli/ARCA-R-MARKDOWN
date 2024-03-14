@@ -1,0 +1,31 @@
+---
+title: "Primo Quarto"
+author: "Alessia Caccioppoli"
+format:
+  html:
+   theme: minty
+   toc: true
+   toc-title: Cosacce
+   toc-location: left
+   toc-depth: 70
+   code-fold: true
+   code-tools: 
+    source: true
+    toggle: false
+    caption: Dai uno sgurdo al codice
+execute:
+  eval: true
+  echo: true
+  warning: true
+lang: de
+---
+
+## Magritte
+
+```{r}
+#| echo: false
+#| comment: " "
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).

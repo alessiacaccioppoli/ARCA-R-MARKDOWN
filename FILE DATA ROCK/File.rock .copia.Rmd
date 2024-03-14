@@ -1,0 +1,106 @@
+---
+title: "Rock"
+author: "Alessia Caccioppoli"
+date: "2024-03-11"
+output:
+  html_document:
+    df_print: paged
+  pdf_document:
+    number_sections: true
+subtitle: Let's ***rock*** this data
+toc: true
+toc_depth: 2
+linestretch: 1.5
+geometry: margin=0.5in
+lang: it
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Rock
+
+## Measurements on Petroleum <u>Rock Samples<\u>
+
+### Description
+
+Measurements on 48 \Large rock \normalsize samples from a **\color{blue}{petroleum}** \normalcolor reservoir.
+
+```{r cars}
+summary(cars)
+```
+
+## Facciamo un passo indietro: cos'è una petroleum rock[^1]
+
+[^1]: \color{red}[rock](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)  \normalcolor
+
+Nella geologia del \Large petrolio \normalsize , la *\color{red}{roccia madre}* \normalcolor è la roccia che ha generato idrocarburi o che potrebbe generare idrocarburi. Le rocce madri sono uno degli elementi necessari per un sistema petrolifero funzionante . Sono sedimenti ricchi di sostanza organica che potrebbero essere stati depositati in una varietà di ambienti tra cui acque profonde marine , lacustri e deltizie . Lo scisto ***\color{violet}{bituminoso}*** \normalcolor può essere considerato una roccia madre ricca di materiale organico ma immatura da cui è stato generato ed espulso poco o nessun petrolio. Le metodologie di mappatura delle rocce madri del sottosuolo consentono di identificare le probabili zone di presenza di petrolio nei bacini sedimentari e nei giacimenti di gas di scisto .
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+## Tipi di rocce madri
+
+Le rocce madri[^2] sono classificate in base ai tipi di kerogene che contengono, che a sua volta governa il tipo di idrocarburi che verranno generati: 
+
+[^2]: \color{blue}[Rocce madri](https://en.wikipedia.org/wiki/Source_rock) \normalcolor
+
+### Rocce madri di tipo I
+Le rocce madri di tipo I sono formate da resti di alghe depositati in condizioni anossiche in laghi profondi: tendono a generare oli grezzi cerosi quando sottoposti a stress termico durante l'interramento profondo.
+
+### Rocce madri di tipo II
+Le rocce madri di tipo II sono formate da resti planctonici e batterici marini conservati in condizioni anossiche in ambienti marini: producono sia petrolio che gas quando vengono fessurate termicamente durante l'interramento profondo.
+
+### Rocce madri di tipo III
+Le rocce madri di tipo III sono formate da materiale vegetale terrestre che è stato decomposto da batteri e funghi in condizioni ossiche o subossiche: tendono a generare principalmente gas con oli leggeri associati quando vengono fessurate termicamente durante l'interramento profondo. La maggior parte dei carboni e degli scisti carbonatici sono generalmente rocce madri di tipo III.
+
+## Lista di sassi
+
+- Tufo
+- Granito
+- Marmo
+- Alessandrite
+
+## Lista di sassi in ordine di bellezza
+
+1. Alessandrite
+2. Marmo
+3. Granito
+4. Tufo
+
+## Lista di sassi
+1. Alessandrite
+2. Marmo
+   - Il marmo bianco di Carrara
+   - Il marmo Botticino classico
+   - Il marmo travertino romano classico, noce e rosso persiano
+   - Il marmo giallo Cleopatra e giallo reale
+3. Granito
+4. Tufo
+
+Un sasso particolare: lo smeraldo.
+
+> Provenienze dello smeraldo:
+>
+> - Africa
+>
+> - Egitto
+>
+> - Colombia
+>
+> - Brasile
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,155 @@
+---
+title: "Primo Quarto"
+author: "Alessia Caccioppoli"
+format:
+  html:
+   theme: minty
+   toc: true
+   toc-title: Cosacce
+   toc-location: left
+   toc-depth: 70
+   code-fold: true
+   code-tools: 
+    source: true
+    toggle: false
+    caption: Dai uno sgurdo al codice
+execute:
+  eval: true
+  echo: true
+  warning: false
+lang: de
+---
+
+## Magritte con Chunk di codice
+
+Di seguito @fig-prima uno dei più grandi capolavori di Magritte.
+
+```{r}
+#| echo: false
+#| comment: " "
+#| fig-cap: "Ceci n'est pas une pipe"
+#| fig-cap-location: bottom
+#| out-width: 50%
+#| label: fig-prima
+#| fig-align: center
+knitr::include_graphics("PRIMOQUARTO/magritte.jpg")
+```
+
+
+## Chagall con R-Markdown
+
+In @fig-label l'opera Oltre la città di Marc Chagall.
+
+![Oltre la città](PRIMOQUARTO/chagall.jpg){#fig-label}
+
+
+## Ma torniamo ai grafici sui sassi
+
+```{r}
+#| fig-cap: "Grafico sui sassi"
+#| fig-cap-location: bottom
+#| out-width: 53%
+#| fig-align: center
+#| label: fig-grafico
+library(ggplot2)
+ggplot(rock, 
+       aes(y=peri,x=shape, color =shape, size = peri)) + geom_point() + 
+  theme_light() + theme(legend.position = "none") 
+
+```
+In @fig-grafico c'è un grafico
+
+
+## Tabelle con i sassi
+
+A seguire una @tbl-esempio sui sassi
+
+```{r}
+#| tbl-cap-location: bottom
+#| tbl-cap: Una tabella sui sassi
+#| tbl-subcap: perchè anche i sassi meritano di essere misurati
+#| label: tbl-esempio
+#| eval: true
+
+kableExtra::kable(rock[1:6, ])
+```
+
+## Parte con tre colonne
+
+:::: {.columns}
+
+
+::: {.column width="30%"}
+
+Testo nella prima colonna
+
+:::
+
+::: {.column width="30%"}
+
+Testo nella seconda colonna
+
+:::
+
+::: {.column width="30%"}
+
+Testo nella terza colonna
+
+:::
+
+::::
+
+
+## Ambiente griglia in tre parti
+
+:::{.grid}
+
+:::{.g-col-3}
+
+Parte prima
+
+:::
+
+:::{.g-col-3}
+
+Parte seconda
+
+:::
+
+:::{.g-col-6}
+
+Parte terza
+
+:::
+
+:::
+
+
+## Tabsets
+
+::: {.panel-tabset}
+
+## Introduzione
+
+Oltre alla passione per i sassi, coltivo una grande passione per le arti visive. 
+
+
+## Lipowski
+
+Diamo uno sgaurdo a @fig-tatu, di uno dei più grandi artisti della contemporaneità
+
+```{r}
+#| echo: false
+#| comment: " "
+#| fig-cap: "Carosello"
+#| fig-cap-location: bottom
+#| out-width: 50%
+#| label: fig-tatu
+#| fig-align: center
+knitr::include_graphics("PRIMOQUARTO/tatu3.jpg")
+```
+
+:::
+
+
+
